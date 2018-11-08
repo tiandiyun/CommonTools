@@ -11,10 +11,10 @@ if __name__ == "__main__":
 		txtPath = sys.argv[2]
 		itemType = sys.argv[3]
 	else:
-		# excelPath = r'E:\Work\FishGame\File\虚拟卡\VirtualCard.xlsx'
-		# txtPath = r'E:\Work\FishGame\File\虚拟卡\VirtualCard.txt'
-		excelPath = r'D:\Work\Project\Python\CommonTools\虚拟卡\VirtualCard.xlsx'
-		txtPath = r'D:\Work\Project\Python\CommonTools\虚拟卡\VirtualCard.txt'
+		excelPath = r'E:\Work\FishGame\File\虚拟卡\VirtualCard.xlsx'
+		txtPath = r'E:\Work\FishGame\File\虚拟卡\VirtualCard.txt'
+		# excelPath = r'D:\Work\Project\Python\CommonTools\虚拟卡\VirtualCard.xlsx'
+		# txtPath = r'D:\Work\Project\Python\CommonTools\虚拟卡\VirtualCard.txt'
 		itemType = None
 
 	if not os.path.isfile(excelPath):
