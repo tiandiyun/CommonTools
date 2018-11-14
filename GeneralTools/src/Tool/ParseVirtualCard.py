@@ -6,6 +6,8 @@ from collections import OrderedDict
 
 if __name__ == "__main__":
 
+	print(sys.argv)
+	
 	if len(sys.argv) == 4:
 		excelPath = sys.argv[1]
 		txtPath = sys.argv[2]
