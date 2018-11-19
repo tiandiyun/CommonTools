@@ -4,11 +4,12 @@ import sys
 sys.path.append(sys.path[0])
 
 from Test.TestArgparse import TestArgparse
-
+from Tool.FileCheck import FileCheck
+from Tool.ProjectManager import CreateNewRoom
 
 if __name__ == "__main__":
 
-    if len(sys.argv) < 1:
+    if len(sys.argv) < 2:
         sys.exit(0)
 
     cmd = sys.argv[1]
@@ -16,3 +17,7 @@ if __name__ == "__main__":
 
     if cmd == 'Test':
         TestArgparse()
+    elif cmd == 'CheckFile':
+        FileCheck.FindLogError()
+    elif cmd == 'CreateRoom':
+        CreateNewRoom()
