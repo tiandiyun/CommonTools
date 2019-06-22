@@ -6,33 +6,35 @@ import time
 import codecs
 import chardet
 import argparse
+import shutil
+
 
 class FileCheck:
-
     __counting_time = 0
 
     @classmethod
     def FindLogError(cls):
         parser = argparse.ArgumentParser()
-        parser.add_argument("dir", help="input a directory")
+        parser.add_argument("-sd", "--search_dir", help="missing path to search")
+        parser.add_argument("-fp", "--file_pattern", default="*")
+        parser.add_argument("-kp", "--key_pattern", help="missing key words pattern for searching")
         args = parser.parse_args()
-        if not args.dir:
+        if not args.search_dir:
             return
 
-        for dir, subList, files in os.walk(args.dir):
-            # print(dir, subList, files)
+        file_pattern = args.file_pattern if args.file_pattern else '*'
+        rr = re.compile(file_pattern, re.IGNORECASE)
+        for dir, subList, files in os.walk(args.search_dir):
             for file in files:
-                _, ext = os.path.splitext(file)
-                if ext == '.log' and file.find('Gate') >= 0:
-                    file_path = os.path.join(dir, file)
-
+                if rr.search(file):
+                    src_path = os.path.join(dir, file)
                     cls.__StartCounting()
-                    cls.__FindError(file_path)
+                    cls.__FindError(src_path, args.key_pattern)
                     cls.__EndCounting('Check file <<{}>> cost time:   '.format(file))
 
 
     @classmethod
-    def __FindError(cls, file_path):
+    def __FindError(cls, src_path, key_pattern):
 
         def __GetEncoding(bytes):
             char_info = chardet.detect(bytes)
@@ -40,7 +42,9 @@ class FileCheck:
             return ec
 
         try:
-            with codecs.open(file_path, mode='rb') as fp:
+            rr = re.compile(key_pattern, re.IGNORECASE)
+
+            with codecs.open(src_path, mode='rb') as fp:
                 lines = fp.readlines()
 
             ec = None
@@ -54,12 +58,14 @@ class FileCheck:
                     ec = __GetEncoding(line)
                     str_data = line.decode(ec)
 
-                result = re.search(r".*FATAL.*", str_data, re.IGNORECASE)
+                result = rr.search(str_data)
                 if result:
-                    print(result.group(0))
+                    print(str_data)
+                    # print(result.group(0))
 
         except Exception as e:
-            print(e, file_path)
+            print(e, src_path)
+
 
     @classmethod
     def __StartCounting(cls, info=None):
@@ -67,10 +73,41 @@ class FileCheck:
         if info:
             print(info, cls.__counting_time)
 
+
     @classmethod
     def __EndCounting(cls, info=None):
         tm = time.time()
         dt = tm - cls.__counting_time
-
         if info:
             print(info, dt)
+
+
+    @classmethod
+    def CheckFilesStat(cls):
+        parser = argparse.ArgumentParser()
+        parser.add_argument("-sd", "--search_dir", help="missing path to search")
+        args = parser.parse_args()
+
+        checkDirName = 'NewFishBuild'  # 'trunk'
+        bakDir = None
+        idx = args.search_dir.find(checkDirName)
+        if idx >= 0:
+            chkDir = args.search_dir[:idx]
+            bakDir = os.path.join(chkDir, checkDirName + '_bak')
+            os.chdir(os.path.join(chkDir, checkDirName))
+
+        now_time = time.time()
+        for mainDir, subList, files in os.walk('.'):
+            for file in files:
+                src_path = os.path.join(mainDir, file)
+                statinfo = os.stat(src_path)
+                if statinfo.st_mtime > now_time:
+                    print(src_path)
+
+                    if bakDir:
+                        bakSubDir = os.path.join(bakDir, mainDir)
+                        if not os.path.isdir(bakSubDir):
+                            os.makedirs(bakSubDir)
+
+                        dst_path = os.path.join(bakSubDir, file)
+                        shutil.move(src_path, dst_path)

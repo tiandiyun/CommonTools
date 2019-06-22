@@ -10,44 +10,43 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/GeneralTools$Main.coverage" NAME="Main Coverage Results" MODIFIED="1542647695083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/GeneralTools$Main.coverage" NAME="Main Coverage Results" MODIFIED="1557828122676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/GeneralTools$ParseVirtualCard.coverage" NAME="ParseVirtualCard Coverage Results" MODIFIED="1542247501276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GeneralTools$BuildFish.coverage" NAME="BuildFish Coverage Results" MODIFIED="1554827108871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Tool" />
+    <SUITE FILE_PATH="coverage/GeneralTools$BuildFish__1_.coverage" NAME="BuildFish (1) Coverage Results" MODIFIED="1554826910600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Tool" />
+    <SUITE FILE_PATH="coverage/GeneralTools$ThreadCooperative.coverage" NAME="ThreadCooperative Coverage Results" MODIFIED="1555576631893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Tool" />
+    <SUITE FILE_PATH="coverage/GeneralTools$CheckProcess.coverage" NAME="CheckProcess Coverage Results" MODIFIED="1555644836108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Tool" />
+    <SUITE FILE_PATH="coverage/GeneralTools$PipeClient.coverage" NAME="PipeClient Coverage Results" MODIFIED="1555587397434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Tool" />
+    <SUITE FILE_PATH="coverage/GeneralTools$UserLogonServer.coverage" NAME="UserLogonServer Coverage Results" MODIFIED="1555501592493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Tool" />
+    <SUITE FILE_PATH="coverage/GeneralTools$ServersConfigParser.coverage" NAME="ServersConfigParser Coverage Results" MODIFIED="1555663199457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Tool" />
+    <SUITE FILE_PATH="coverage/GeneralTools$DBDumps.coverage" NAME="DBDumps Coverage Results" MODIFIED="1555666030784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Tool" />
     <SUITE FILE_PATH="coverage/GeneralTools$TestRE.coverage" NAME="TestRE Coverage Results" MODIFIED="1542622411809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Test" />
+    <SUITE FILE_PATH="coverage/GeneralTools$PipeServer.coverage" NAME="PipeServer Coverage Results" MODIFIED="1555605638087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Tool" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="GeneralTools" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestArgparse.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Test/TestArgparse.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestRE.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Test/TestRE.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="63" selection-start-line="63" selection-end-line="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="FileCheck.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tool/FileCheck.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
-              <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+            <state relative-caret-position="224">
+              <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
               <folding>
                 <element signature="e#23#32#0" expanded="true" />
               </folding>
@@ -55,34 +54,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ParseVirtualCard.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Tool/ParseVirtualCard.py">
+      <file leaf-file-name="Main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#23#37#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="513">
+              <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommonFunction.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Util/CommonFunction.py">
+      <file leaf-file-name="LoadRWRobotName.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Tool/LoadRWRobotName.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="571">
-              <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
-              <folding>
-                <element signature="e#23#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProjectManager.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Tool/ProjectManager.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="120" column="106" lean-forward="true" selection-start-line="120" selection-start-column="106" selection-end-line="120" selection-end-column="106" />
+            <state relative-caret-position="741">
+              <caret line="39" column="32" lean-forward="true" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
               <folding>
                 <element signature="e#23#32#0" expanded="true" />
               </folding>
@@ -105,18 +90,59 @@
       <find>utf</find>
       <find>RoomTemplate</find>
       <find>ROOM_TEMPLATE</find>
+      <find>required</find>
+      <find>splitext</find>
+      <find>ProjectHome</find>
+      <find>for path in os\.listdir\(zipName\)\:\n            if path in \[\'cfg\'\, \'Debug\'\] and os\.path\.isdir\(path\)\:\n                pass</find>
+      <find>DEFLATED</find>
+      <find>GetLastError</find>
+      <find>WNetCancelConnection2</find>
+      <find>NetResource</find>
+      <find>RESOURCETYPE_ANY</find>
+      <find>del</find>
+      <find>INVALID_HANDLE_VALUE</find>
+      <find>__Set__connectFlag</find>
+      <find>main</find>
+      <find>PIPE_READMODE_MESSAGE</find>
+      <find>username</find>
+      <find>ReadFile</find>
+      <find>put</find>
+      <find>FindLogError</find>
+      <find>re</find>
+      <find>re.</find>
+      <find>RecycleRobot</find>
+      <find>robot</find>
     </findStrings>
+    <replaceStrings>
+      <replace>src_path</replace>
+      <replace>__SetConnectFlag</replace>
+    </replaceStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/ParseVirtualCard.py" />
         <option value="$PROJECT_DIR$/src/Tool/CheckFile.py" />
-        <option value="$PROJECT_DIR$/src/Tool/FileCheck.py" />
-        <option value="$PROJECT_DIR$/src/Main.py" />
         <option value="$PROJECT_DIR$/src/Test/TestRE.py" />
         <option value="$PROJECT_DIR$/src/Util/CommonFunction.py" />
         <option value="$PROJECT_DIR$/src/Tool/ProjectManager.py" />
+        <option value="$PROJECT_DIR$/src/Test/TestArgparse.py" />
+        <option value="$PROJECT_DIR$/src/Tool/LoadRWRobotName.py" />
+        <option value="D:/Program Files (x86)/Jenkins/workspace/新捕鱼Debug版本/Main.py" />
+        <option value="D:/Program Files (x86)/Jenkins/workspace/新捕鱼Debug版本/BuildFish.py" />
+        <option value="$PROJECT_DIR$/src/Tool/CompressFiles.py" />
+        <option value="$PROJECT_DIR$/src/Tool/PipeIO.py" />
+        <option value="$PROJECT_DIR$/src/Tool/UserLogonServer.py" />
+        <option value="$PROJECT_DIR$/src/Tool/ThreadCooperative.py" />
+        <option value="$PROJECT_DIR$/src/Tool/PipeClient.py" />
+        <option value="$PROJECT_DIR$/src/Tool/BuildFish.py" />
+        <option value="$PROJECT_DIR$/src/Tool/PipeServer.py" />
+        <option value="$PROJECT_DIR$/src/Tool/CheckProcess.py" />
+        <option value="$PROJECT_DIR$/src/Tool/ServersConfigParser.py" />
+        <option value="$PROJECT_DIR$/src/Tool/BakeUpDB.py" />
+        <option value="$PROJECT_DIR$/src/Tool/DBDumps.py" />
+        <option value="$PROJECT_DIR$/src/Main.py" />
+        <option value="$PROJECT_DIR$/src/Tool/FileCheck.py" />
       </list>
     </option>
   </component>
@@ -164,12 +190,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Tool" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="GeneralTools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GeneralTools" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Util" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -195,7 +215,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Main">
+  <component name="RunManager">
     <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="GeneralTools" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -210,59 +230,14 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Main.py" />
-      <option name="PARAMETERS" value="CreateRoom IslandWar -p islandWar -o E:\Work\FishGame\server\trunk\roomServer\IslandWar" />
+      <option name="PARAMETERS" value="CheckFile -sd E:\Work\NewFish\files\备份\1003-1004备份\bin\Debug\log -fp &quot;^redwars*&quot; -kp &quot;Robbing failed&quot;" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="ParseVirtualCard" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="GeneralTools" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ParseVirtualCard.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="TestRE" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="GeneralTools" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Test/TestRE.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <list>
-      <item itemvalue="Python.ParseVirtualCard" />
-      <item itemvalue="Python.Main" />
-      <item itemvalue="Python.TestRE" />
-    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.Main" />
-        <item itemvalue="Python.TestRE" />
-        <item itemvalue="Python.ParseVirtualCard" />
       </list>
     </recent_temporary>
   </component>
@@ -292,28 +267,54 @@
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32938644" />
-      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5010661" side_tool="true" weight="0.38643703" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.32938644" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32938644" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4962325" visible="true" weight="0.15245202" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32938644" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32938644" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4148784" visible="true" weight="0.17803837" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info id="Structure" order="1" sideWeight="0.5037675" side_tool="true" visible="true" weight="0.15245202" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39935413" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32995737" />
+      <window_info id="Structure" order="1" sideWeight="0.58512163" side_tool="true" weight="0.16684435" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" weight="0.270183" />
+      <window_info id="Favorites" order="2" sideWeight="0.5859649" side_tool="true" weight="0.16684435" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="12" weight="0.32938644" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7550143" visible="true" weight="0.16684435" />
+      <window_info id="Structure" order="1" sideWeight="0.24498567" side_tool="true" visible="true" weight="0.16684435" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32938644" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.32938644" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" visible="true" weight="0.24865447" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50053304" side_tool="true" weight="0.32938644" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="12" weight="0.32938644" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -334,6 +335,16 @@
           <line>65</line>
           <option name="timeStamp" value="67" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/Tool/LoadRWRobotName.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/Tool/LoadRWRobotName.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -342,254 +353,73 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="76" />
+      <option name="time" value="208" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="re.sub(r'(&lt;ProjectName&gt;)(.*)(&lt;/ProjectName&gt;)', r'\1%s\3' % projName, line)" language="Python" />
+        <watch expression="re.search(file_pattern, file)" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
       <expression>
-        <expression-string>re.sub(r'(&lt;ProjectName&gt;)(.*)(&lt;/ProjectName&gt;)', r'\1%s\3' % projName, line)</expression-string>
+        <expression-string>re.search(file_pattern, file)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>re.sub(r'(&lt;ProjectName&gt;)(.*)(&lt;/ProjectName&gt;)', r'\1\%s\3' % projName, line)</expression-string>
+        <expression-string>re.search()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>re.sub(r'(&lt;ProjectName&gt;)(.*)(&lt;/ProjectName&gt;)', r'\1\%\3'%projName, line)</expression-string>
+        <expression-string>getattr(parser, '__name__')</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>re.sub(r'(&lt;ProjectName&gt;)(.*)(&lt;/ProjectName&gt;)', r'\1\2\3', line)</expression-string>
+        <expression-string>ServerConfigParser.__name__</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>m.group(4)</expression-string>
+        <expression-string>parser.name()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>m.group(0)</expression-string>
+        <expression-string>parser</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>m.group(1,2,3)</expression-string>
+        <expression-string>parser.__name__()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>m.group(1,2,3,4)</expression-string>
+        <expression-string>parser.__name__</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>m.group(1, 2, 3)</expression-string>
+        <expression-string>currentUser.lower() == procUser.lower()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>m.group(1, 2)</expression-string>
+        <expression-string>currentUser == procUser</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Tools/Python37/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5871">
-          <caret line="309" selection-start-line="309" selection-end-line="309" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/TestArgparse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1672">
-          <caret line="88" column="31" selection-start-line="88" selection-start-column="31" selection-end-line="88" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tool/FileCheck.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="30" column="85" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="30" selection-end-column="85" />
-          <folding>
-            <element signature="e#23#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/895509602/nt.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7429">
           <caret line="391" column="4" selection-start-line="391" selection-start-column="4" selection-end-line="391" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/895509602/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39539">
-          <caret line="2081" column="8" selection-start-line="2081" selection-start-column="8" selection-end-line="2081" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Tools/Python37/Lib/shutil.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9747">
-          <caret line="518" column="4" selection-start-line="518" selection-start-column="4" selection-end-line="518" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tool/ProjectManager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="44" lean-forward="true" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
-          <folding>
-            <element signature="e#23#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tool/FileCheck.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1216">
-          <caret line="69" column="16" lean-forward="true" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
-          <folding>
-            <element signature="e#23#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ParseVirtualCard.py" />
-    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/895509602/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53979">
-          <caret line="2841" column="8" selection-start-line="2841" selection-start-column="8" selection-end-line="2841" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Tools/Python37/Lib/site-packages/xlrd/sheet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7562">
-          <caret line="398" column="8" selection-start-line="398" selection-start-column="8" selection-end-line="398" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Tools/Python37/Lib/site-packages/xlrd/book.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8379">
-          <caret line="445" column="14" selection-start-line="445" selection-start-column="8" selection-end-line="445" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Tools/Python37/Lib/site-packages/xlrd/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1112">
-          <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ParseVirtualCard.py" />
-    <entry file="file://D:/Tools/Python37/Lib/site-packages/xlrd/sheet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="398" column="8" selection-start-line="398" selection-start-column="8" selection-end-line="398" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Tools/Python37/Lib/site-packages/xlrd/book.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="445" column="14" selection-start-line="445" selection-start-column="8" selection-end-line="445" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ParseVirtualCard.py" />
-    <entry file="file://D:/Tools/Python37/Lib/tokenize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="446" selection-start-line="446" selection-end-line="446" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tool/CheckFile.py" />
-    <entry file="file://D:/Tools/Python37/Lib/typing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="1499" column="8" selection-start-line="1499" selection-start-column="8" selection-end-line="1499" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Tools/Python37/Lib/site-packages/chardet/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="1663" selection-start-line="1663" selection-end-line="1663" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Tools/Python37/Lib/argparse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="1452" column="35" selection-start-line="1452" selection-start-column="35" selection-end-line="1452" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Tools/Python37/Lib/os.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="231" column="15" selection-start-line="231" selection-start-column="15" selection-end-line="231" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/895509602/nt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7429">
-          <caret line="391" column="4" selection-start-line="391" selection-start-column="4" selection-end-line="391" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Tools/Python37/Lib/shutil.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9747">
-          <caret line="518" column="4" selection-start-line="518" selection-start-column="4" selection-end-line="518" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/895509602/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="2989" column="26" selection-start-line="2989" selection-start-column="22" selection-end-line="2989" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -607,39 +437,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Util/CommonFunction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Test/TestRE.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
+        <state relative-caret-position="575">
           <caret line="63" selection-start-line="63" selection-end-line="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/TestArgparse.py">
+    <entry file="file://D:/Tools/Python37/Lib/random.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+        <state relative-caret-position="151">
+          <caret line="746" selection-start-line="746" selection-end-line="746" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tool/FileCheck.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_bundle/pydev_monkey.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
-          <folding>
-            <element signature="e#23#32#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="7923">
+          <caret line="419" selection-start-line="419" selection-end-line="419" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tool/ParseVirtualCard.py">
+    <entry file="file://D:/Tools/Python37/Lib/subprocess.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#23#37#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="19">
+          <caret line="1154" selection-start-line="1154" selection-end-line="1154" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files (x86)/Jenkins/workspace/新捕鱼Debug版本/Main.py" />
+    <entry file="file://D:/Program Files (x86)/Jenkins/workspace/新捕鱼Debug版本/BuildFish.py" />
     <entry file="file://D:/Tools/Python37/Lib/ntpath.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -647,34 +488,213 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Util/CommonFunction.py">
+    <entry file="file://D:/Tools/Python37/Lib/zipfile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
-          <folding>
-            <element signature="e#23#36#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="19">
+          <caret line="56" column="12" selection-start-line="56" selection-end-line="56" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/895509602/zlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="841">
+          <caret line="97" column="67" selection-start-line="97" selection-start-column="59" selection-end-line="97" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tool/CompressFiles.py" />
+    <entry file="file://$PROJECT_DIR$/src/Tool/ParseVirtualCard.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons/os/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="765" column="4" selection-start-line="765" selection-start-column="4" selection-end-line="765" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tool/PipeIO.py" />
+    <entry file="file://D:/Tools/Python37/Lib/site-packages/win32/lib/winerror.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/895509602/win32net.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1425" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/895509602/win32wnet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="156" column="10" selection-start-line="156" selection-start-column="10" selection-end-line="156" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Tools/Python37/Lib/site-packages/win32/lib/win32netcon.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="601" selection-start-line="601" selection-end-line="601" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/895509602/win32api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/895509602/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="896" column="6" selection-start-line="896" selection-start-column="6" selection-end-line="896" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tool/UserLogonServer.py" />
+    <entry file="file://$PROJECT_DIR$/src/Tool/ProjectManager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Tools/Python37/Lib/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="853" column="8" selection-start-line="853" selection-start-column="8" selection-end-line="853" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="1657" selection-start-line="1657" selection-end-line="1657" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/895509602/time.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="163" column="4" selection-start-line="163" selection-start-column="4" selection-end-line="163" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/895509602/win32pipe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="25" column="21" selection-start-line="25" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/895509602/_collections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="87" column="8" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Tools/Python37/Lib/queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="212" column="22" lean-forward="true" selection-start-line="212" selection-start-column="22" selection-end-line="212" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Tools/Python37/Lib/getpass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="153" column="4" selection-start-line="153" selection-start-column="4" selection-end-line="153" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Tools/Python37/Lib/site-packages/psutil/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="810" selection-start-line="810" selection-end-line="810" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tool/BuildFish.py" />
+    <entry file="file://$PROJECT_DIR$/src/Tool/PipeClient.py" />
+    <entry file="file://$PROJECT_DIR$/src/Tool/PipeServer.py" />
+    <entry file="file://$PROJECT_DIR$/src/Tool/ThreadCooperative.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="161" column="22" selection-start-line="161" selection-start-column="19" selection-end-line="161" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Tools/Python37/Lib/xml/etree/ElementTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="553" column="8" selection-start-line="553" selection-start-column="8" selection-end-line="553" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tool/BakeUpDB.py" />
+    <entry file="file://D:/Tools/Python37/Lib/shutil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="518" column="4" selection-start-line="518" selection-start-column="4" selection-end-line="518" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Tools/Python37/Lib/os.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="976" column="4" selection-start-line="976" selection-start-column="4" selection-end-line="976" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tool/DBDumps.py" />
+    <entry file="file://$PROJECT_DIR$/src/Tool/ServersConfigParser.py" />
+    <entry file="file://$PROJECT_DIR$/src/Tool/CheckProcess.py" />
+    <entry file="file://D:/Tools/Python37/Lib/types.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://D:/Tools/Python37/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="317" lean-forward="true" selection-start-line="317" selection-end-line="317" />
+        <state relative-caret-position="841">
+          <caret line="309" selection-start-line="309" selection-end-line="309" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/TestArgparse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="68" column="34" selection-start-line="68" selection-start-column="34" selection-end-line="68" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tool/FileCheck.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+          <folding>
+            <element signature="e#23#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="513">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tool/ProjectManager.py">
+    <entry file="file://$PROJECT_DIR$/src/Tool/LoadRWRobotName.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="120" column="106" lean-forward="true" selection-start-line="120" selection-start-column="106" selection-end-line="120" selection-end-column="106" />
+        <state relative-caret-position="741">
+          <caret line="39" column="32" lean-forward="true" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
           <folding>
             <element signature="e#23#32#0" expanded="true" />
           </folding>

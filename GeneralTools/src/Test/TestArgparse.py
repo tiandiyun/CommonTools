@@ -62,7 +62,7 @@ def TestArgparse():
         dest 指定参数名，不指定的话，默认情况下，对于可选参数选取最长的名称，中划线转换为下划线.
     '''
     parser = argparse.ArgumentParser()
-    parser.add_argument("-v", "--verbosity", help="increase output verbosity", action="store_true")
+    parser.add_argument("-v", "--verbosity", help="increase output verbosity", action="store_true", default=False)
     parser.add_argument("-i", "--ignore", help="can be ignored", required=False, dest='bar')
     args = parser.parse_args()
     if args.verbosity:
