@@ -6,7 +6,7 @@ sys.path.append(sys.path[0])
 from Test.TestArgparse import TestArgparse
 from Tool.FileCheck import FileCheck
 from Tool.ProjectManager import CreateNewRoom
-from Tool.LoadRWRobotName import SelectNameFromFile
+from Tool.LoadRWRobotName import SelectNameFromFile, ImportRobot
 
 if __name__ == "__main__":
 
@@ -26,3 +26,5 @@ if __name__ == "__main__":
         FileCheck.CheckFilesStat()
     elif cmd == 'SelectNameFromFile':
         SelectNameFromFile()
+    elif cmd == 'ImportRobot':
+        ImportRobot()

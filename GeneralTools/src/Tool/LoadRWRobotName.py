@@ -38,3 +38,23 @@ def SelectNameFromFile():
     outputFile = os.path.join(os.path.dirname(args.file), srcName + '_output' + srcExt)
     with open(outputFile, 'w', encoding='utf-8') as f:
         f.writelines(selectList)
+
+
+def ImportRobot():
+    importFile = r'D:\Work\Project\Python\CommonTools\GeneralTools\data\id.txt'
+    exportFiles = []
+
+    if not os.path.isfile(importFile):
+        print('not found file: ' + importFile)
+        return
+
+    with open(importFile, 'r+') as fp:
+        pattern = re.compile('(\d+?)(\s{4})')
+        lines = fp.readlines()
+
+        for i, l in enumerate(lines):
+            lines[i] = pattern.sub(r'\1\t', l)
+
+        fp.seek(0)
+        fp.truncate()
+        fp.writelines(lines)
