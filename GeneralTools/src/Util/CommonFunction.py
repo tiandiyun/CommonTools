@@ -1,5 +1,6 @@
 # -*- coding:utf8 -*-
 
+import os
 import codecs
 import chardet
 
@@ -36,3 +37,24 @@ def ReadFileWithUtf8(file_path):
     except Exception as e:
         print(e, file_path)
         return None, None
+
+
+def TryGetEncoding(file):
+    try:
+        with open(file, 'rb') as fp:
+            char_info = chardet.detect(fp.read())
+            ec = char_info['encoding']
+            return ec
+    except Exception as e:
+        print(e)
+
+
+def ReadLines(file, ec=None):
+    if not ec:
+        ec = TryGetEncoding(file)
+
+    try:
+        with open(file, 'r', encoding=ec) as fp:
+            return fp.readlines()
+    except Exception as e:
+        print(e, file)

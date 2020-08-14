@@ -3,11 +3,9 @@
 import os
 import re
 import time
-import codecs
-import chardet
 import random
 import argparse
-import shutil
+from Util.CommonFunction import ReadLines
 
 random.seed(time.time())
 
@@ -40,21 +38,36 @@ def SelectNameFromFile():
         f.writelines(selectList)
 
 
-def ImportRobot():
-    importFile = r'D:\Work\Project\Python\CommonTools\GeneralTools\data\id.txt'
-    exportFiles = []
-
+def ImportRobot(importFile, itemsCount, partsCount):
     if not os.path.isfile(importFile):
         print('not found file: ' + importFile)
         return
 
-    with open(importFile, 'r+') as fp:
-        pattern = re.compile('(\d+?)(\s{4})')
-        lines = fp.readlines()
+    _, fileName = os.path.split(importFile)
+    name, tail = os.path.splitext(fileName)
 
-        for i, l in enumerate(lines):
-            lines[i] = pattern.sub(r'\1\t', l)
+    exportFiles = {}
+    exportDir = os.path.dirname(importFile)
 
-        fp.seek(0)
-        fp.truncate()
-        fp.writelines(lines)
+    lines = ReadLines(importFile, 'ansi')
+    linesCount = len(lines)
+    splitParts = (linesCount + itemsCount - 1) / itemsCount
+    parts = min(splitParts, partsCount)
+
+    for pi in range(parts):
+        exportPath = os.path.join(exportDir, name + '_30' + str(pi + 1) + tail)
+        exportFiles[exportPath] = lines[pi * itemsCount : min((pi + 1) * itemsCount, linesCount)]
+
+    pattern = re.compile('(\d+?)(\s{4})(.*)(\n|\r\n)')
+    for path, lines in exportFiles.items():
+        if os.path.isfile(path):
+            os.remove(path)
+
+        with open(path, 'w', encoding='utf-8') as fp:
+            fp.write('ID\tName\tFaceID\n')
+            for l in lines:
+                newL = pattern.sub(r'\1\t\3\t100\4', l)
+                fp.write(newL)
+            print('Export success: ' + path)
+
+    print('Done !!')

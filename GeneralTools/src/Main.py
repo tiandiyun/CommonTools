@@ -7,6 +7,7 @@ from Test.TestArgparse import TestArgparse
 from Tool.FileCheck import FileCheck
 from Tool.ProjectManager import CreateNewRoom
 from Tool.LoadRWRobotName import SelectNameFromFile, ImportRobot
+from Tool.Xls2Xml import ConvertXlsToXml
 
 if __name__ == "__main__":
 
@@ -27,4 +28,7 @@ if __name__ == "__main__":
     elif cmd == 'SelectNameFromFile':
         SelectNameFromFile()
     elif cmd == 'ImportRobot':
-        ImportRobot()
+        ImportRobot(sys.argv[1], int(sys.argv[2]), int(sys.argv[3]))
+        # ImportRobot(r'E:\Project\Python\GeneralTools\data\id.txt', 1000, 2)
+    elif cmd == 'Xls2Xml':
+        ConvertXlsToXml()

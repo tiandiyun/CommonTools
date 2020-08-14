@@ -10,16 +10,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/GeneralTools$Main.coverage" NAME="Main Coverage Results" MODIFIED="1557828122676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/GeneralTools$Main.coverage" NAME="Main Coverage Results" MODIFIED="1597384691237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/GeneralTools$ParseVirtualCard.coverage" NAME="ParseVirtualCard Coverage Results" MODIFIED="1542247501276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GeneralTools$CheckProcess.coverage" NAME="CheckProcess Coverage Results" MODIFIED="1555644836108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Tool" />
+    <SUITE FILE_PATH="coverage/GeneralTools$DBDumps.coverage" NAME="DBDumps Coverage Results" MODIFIED="1555666030784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Tool" />
     <SUITE FILE_PATH="coverage/GeneralTools$BuildFish.coverage" NAME="BuildFish Coverage Results" MODIFIED="1554827108871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Tool" />
     <SUITE FILE_PATH="coverage/GeneralTools$BuildFish__1_.coverage" NAME="BuildFish (1) Coverage Results" MODIFIED="1554826910600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Tool" />
     <SUITE FILE_PATH="coverage/GeneralTools$ThreadCooperative.coverage" NAME="ThreadCooperative Coverage Results" MODIFIED="1555576631893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Tool" />
-    <SUITE FILE_PATH="coverage/GeneralTools$CheckProcess.coverage" NAME="CheckProcess Coverage Results" MODIFIED="1555644836108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Tool" />
     <SUITE FILE_PATH="coverage/GeneralTools$PipeClient.coverage" NAME="PipeClient Coverage Results" MODIFIED="1555587397434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Tool" />
+    <SUITE FILE_PATH="coverage/GeneralTools$Xls2Xml.coverage" NAME="Xls2Xml Coverage Results" MODIFIED="1597376615451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Tool" />
     <SUITE FILE_PATH="coverage/GeneralTools$UserLogonServer.coverage" NAME="UserLogonServer Coverage Results" MODIFIED="1555501592493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Tool" />
     <SUITE FILE_PATH="coverage/GeneralTools$ServersConfigParser.coverage" NAME="ServersConfigParser Coverage Results" MODIFIED="1555663199457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Tool" />
-    <SUITE FILE_PATH="coverage/GeneralTools$DBDumps.coverage" NAME="DBDumps Coverage Results" MODIFIED="1555666030784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Tool" />
     <SUITE FILE_PATH="coverage/GeneralTools$TestRE.coverage" NAME="TestRE Coverage Results" MODIFIED="1542622411809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Test" />
     <SUITE FILE_PATH="coverage/GeneralTools$PipeServer.coverage" NAME="PipeServer Coverage Results" MODIFIED="1555605638087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Tool" />
   </component>
@@ -42,11 +43,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FileCheck.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Tool/FileCheck.py">
+      <file leaf-file-name="Main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+            <state relative-caret-position="533">
+              <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Xls2Xml.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Tool/Xls2Xml.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="381">
+              <caret line="137" column="49" selection-start-line="137" selection-start-column="49" selection-end-line="137" selection-end-column="49" />
               <folding>
                 <element signature="e#23#32#0" expanded="true" />
               </folding>
@@ -54,20 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoadRWRobotName.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LoadRWRobotName.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tool/LoadRWRobotName.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="741">
-              <caret line="39" column="32" lean-forward="true" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+            <state relative-caret-position="-228">
+              <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="19" selection-end-column="14" />
               <folding>
                 <element signature="e#23#32#0" expanded="true" />
               </folding>
@@ -93,7 +94,7 @@
       <find>required</find>
       <find>splitext</find>
       <find>ProjectHome</find>
-      <find>for path in os\.listdir\(zipName\)\:\n            if path in \[\'cfg\'\, \'Debug\'\] and os\.path\.isdir\(path\)\:\n                pass</find>
+      <find />
       <find>DEFLATED</find>
       <find>GetLastError</find>
       <find>WNetCancelConnection2</find>
@@ -112,10 +113,14 @@
       <find>re.</find>
       <find>RecycleRobot</find>
       <find>robot</find>
+      <find>coding</find>
+      <find>SEEK_END</find>
+      <find>__indent</find>
     </findStrings>
     <replaceStrings>
       <replace>src_path</replace>
       <replace>__SetConnectFlag</replace>
+      <replace>FormatXmlWithIndent</replace>
     </replaceStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -124,16 +129,13 @@
         <option value="$PROJECT_DIR$/ParseVirtualCard.py" />
         <option value="$PROJECT_DIR$/src/Tool/CheckFile.py" />
         <option value="$PROJECT_DIR$/src/Test/TestRE.py" />
-        <option value="$PROJECT_DIR$/src/Util/CommonFunction.py" />
         <option value="$PROJECT_DIR$/src/Tool/ProjectManager.py" />
         <option value="$PROJECT_DIR$/src/Test/TestArgparse.py" />
-        <option value="$PROJECT_DIR$/src/Tool/LoadRWRobotName.py" />
         <option value="D:/Program Files (x86)/Jenkins/workspace/新捕鱼Debug版本/Main.py" />
         <option value="D:/Program Files (x86)/Jenkins/workspace/新捕鱼Debug版本/BuildFish.py" />
         <option value="$PROJECT_DIR$/src/Tool/CompressFiles.py" />
         <option value="$PROJECT_DIR$/src/Tool/PipeIO.py" />
         <option value="$PROJECT_DIR$/src/Tool/UserLogonServer.py" />
-        <option value="$PROJECT_DIR$/src/Tool/ThreadCooperative.py" />
         <option value="$PROJECT_DIR$/src/Tool/PipeClient.py" />
         <option value="$PROJECT_DIR$/src/Tool/BuildFish.py" />
         <option value="$PROJECT_DIR$/src/Tool/PipeServer.py" />
@@ -141,8 +143,13 @@
         <option value="$PROJECT_DIR$/src/Tool/ServersConfigParser.py" />
         <option value="$PROJECT_DIR$/src/Tool/BakeUpDB.py" />
         <option value="$PROJECT_DIR$/src/Tool/DBDumps.py" />
-        <option value="$PROJECT_DIR$/src/Main.py" />
         <option value="$PROJECT_DIR$/src/Tool/FileCheck.py" />
+        <option value="$PROJECT_DIR$/src/Util/CommonFunction.py" />
+        <option value="$PROJECT_DIR$/src/Tool/LoadRWRobotName.py" />
+        <option value="$PROJECT_DIR$/src/Tool/ThreadCooperative.py" />
+        <option value="$PROJECT_DIR$/src/Util/XmlOperator.py" />
+        <option value="$PROJECT_DIR$/src/Main.py" />
+        <option value="$PROJECT_DIR$/src/Tool/Xls2Xml.py" />
       </list>
     </option>
   </component>
@@ -166,6 +173,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -182,19 +190,18 @@
               <item name="GeneralTools" type="b2602c69:ProjectViewProjectNode" />
               <item name="GeneralTools" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="Tool" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GeneralTools" type="b2602c69:ProjectViewProjectNode" />
               <item name="GeneralTools" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Tool" type="462c0819:PsiDirectoryNode" />
+              <item name="Util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -202,6 +209,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Project\Python\GeneralTools\src\Util" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -215,7 +227,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.Main">
     <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="GeneralTools" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -230,14 +242,38 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Main.py" />
-      <option name="PARAMETERS" value="CheckFile -sd E:\Work\NewFish\files\备份\1003-1004备份\bin\Debug\log -fp &quot;^redwars*&quot; -kp &quot;Robbing failed&quot;" />
+      <option name="PARAMETERS" value="Xls2Xml -s E:\Work\py3d\design\游戏策划案\游乐园\一跳到底配置表\JumpDownLevelConfig.xlsx" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="Xls2Xml" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GeneralTools" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Tool" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Tool/Xls2Xml.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Main" />
+      <item itemvalue="Python.Xls2Xml" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.Main" />
+        <item itemvalue="Python.Xls2Xml" />
       </list>
     </recent_temporary>
   </component>
@@ -265,22 +301,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32938644" />
-      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5010661" side_tool="true" weight="0.38643703" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.12953092" side_tool="true" visible="true" weight="0.2497309" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.32938644" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32938644" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.32938644" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32938644" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4148784" visible="true" weight="0.17803837" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4148784" visible="true" weight="0.18923241" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32995737" />
       <window_info id="Structure" order="1" sideWeight="0.58512163" side_tool="true" weight="0.16684435" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" weight="0.270183" />
       <window_info id="Favorites" order="2" sideWeight="0.5859649" side_tool="true" weight="0.16684435" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.8704691" visible="true" weight="0.2497309" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -288,6 +324,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="12" weight="0.32938644" />
     </layout>
     <layout-to-restore>
@@ -336,14 +373,9 @@
           <option name="timeStamp" value="67" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/Tool/LoadRWRobotName.py</url>
-          <line>36</line>
-          <option name="timeStamp" value="87" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/Tool/LoadRWRobotName.py</url>
-          <line>20</line>
-          <option name="timeStamp" value="88" />
+          <url>file://$PROJECT_DIR$/src/Tool/Xls2Xml.py</url>
+          <line>124</line>
+          <option name="timeStamp" value="237" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -353,111 +385,59 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="208" />
+      <option name="time" value="238" />
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="PythonConfigurationType">
-        <watch expression="re.search(file_pattern, file)" language="Python" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
       <expression>
-        <expression-string>re.search(file_pattern, file)</expression-string>
+        <expression-string>re.search('^Co{18}$', 'Coooooooooooooooooo').group()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>re.search()</expression-string>
+        <expression-string>re.search('^Co{18}$', 'Cooooooooooooooooooxx').group()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>getattr(parser, '__name__')</expression-string>
+        <expression-string>re.search('^Co{18}$', 'xxxCooooooooooooooooooxx').group()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>ServerConfigParser.__name__</expression-string>
+        <expression-string>re.search('^Co{18}$', 'xxxCqsdtg').group()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>parser.name()</expression-string>
+        <expression-string>re.search('^C\w+?ag$', 'xxxCqsdtg').group()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>parser</expression-string>
+        <expression-string>re.search('C\w+?ag$', 'xxxCqsdtg').group()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>parser.__name__()</expression-string>
+        <expression-string>re.search('C\w+?g$', 'xxxCqsdtg').group()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>parser.__name__</expression-string>
+        <expression-string>re.search('C\w{1}o{18}$', 'xxxCqoooooooooooooooooo').group()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>currentUser.lower() == procUser.lower()</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>currentUser == procUser</expression-string>
+        <expression-string>re.search('C\s{1}o{18}$', 'xxxCqoooooooooooooooooo').group()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/895509602/nt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7429">
-          <caret line="391" column="4" selection-start-line="391" selection-start-column="4" selection-end-line="391" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Tools/Python37/Lib/re.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="184" column="4" selection-start-line="184" selection-start-column="4" selection-end-line="184" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/typing.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="528" column="36" selection-start-line="528" selection-start-column="36" selection-end-line="528" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Util/CommonFunction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/TestRE.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Tools/Python37/Lib/random.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="746" selection-start-line="746" selection-end-line="746" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_bundle/pydev_monkey.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7923">
@@ -472,22 +452,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Program Files (x86)/Jenkins/workspace/新捕鱼Debug版本/Main.py" />
     <entry file="file://D:/Program Files (x86)/Jenkins/workspace/新捕鱼Debug版本/BuildFish.py" />
-    <entry file="file://D:/Tools/Python37/Lib/ntpath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Tools/Python37/Lib/zipfile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -503,9 +469,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tool/CompressFiles.py" />
-    <entry file="file://$PROJECT_DIR$/src/Tool/ParseVirtualCard.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons/os/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
@@ -547,32 +510,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/895509602/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="896" column="6" selection-start-line="896" selection-start-column="6" selection-end-line="896" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Tool/UserLogonServer.py" />
-    <entry file="file://$PROJECT_DIR$/src/Tool/ProjectManager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Tools/Python37/Lib/threading.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="853" column="8" selection-start-line="853" selection-start-column="8" selection-end-line="853" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="1657" selection-start-line="1657" selection-end-line="1657" />
         </state>
       </provider>
     </entry>
@@ -621,32 +563,11 @@
     <entry file="file://$PROJECT_DIR$/src/Tool/BuildFish.py" />
     <entry file="file://$PROJECT_DIR$/src/Tool/PipeClient.py" />
     <entry file="file://$PROJECT_DIR$/src/Tool/PipeServer.py" />
-    <entry file="file://$PROJECT_DIR$/src/Tool/ThreadCooperative.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="161" column="22" selection-start-line="161" selection-start-column="19" selection-end-line="161" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Tools/Python37/Lib/xml/etree/ElementTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="553" column="8" selection-start-line="553" selection-start-column="8" selection-end-line="553" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Tool/BakeUpDB.py" />
     <entry file="file://D:/Tools/Python37/Lib/shutil.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="518" column="4" selection-start-line="518" selection-start-column="4" selection-end-line="518" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Tools/Python37/Lib/os.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="976" column="4" selection-start-line="976" selection-start-column="4" selection-end-line="976" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -660,13 +581,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Tools/Python37/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="841">
-          <caret line="309" selection-start-line="309" selection-end-line="309" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Test/TestArgparse.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -674,10 +588,128 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/Tools/Python37/Lib/ntpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="177" column="4" selection-start-line="177" selection-start-column="4" selection-end-line="177" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="1657" selection-start-line="1657" selection-end-line="1657" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Tools/Python37/Lib/os.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="188" column="8" selection-start-line="188" selection-end-line="188" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Util/CommonFunction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="988">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tool/ProjectManager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2260">
+          <caret selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Tools/Python37/Lib/typing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="988">
+          <caret line="1084" column="26" selection-start-line="1084" selection-start-column="11" selection-end-line="1084" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tool/ThreadCooperative.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="157" selection-start-line="157" selection-end-line="157" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/typing.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="487" column="13" selection-start-line="487" selection-start-column="8" selection-end-line="487" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Tools/Python37/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="319" column="30" lean-forward="true" selection-start-line="319" selection-start-column="30" selection-end-line="319" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tool/ParseVirtualCard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Tool/FileCheck.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+        <state>
+          <caret selection-end-column="21" />
+          <folding>
+            <element signature="e#23#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/895509602/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3060">
+          <caret line="5066" column="8" selection-start-line="5066" selection-start-column="8" selection-end-line="5066" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/895509602/lxml/etree/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="671">
+          <caret line="130" column="4" selection-start-line="130" selection-start-column="4" selection-end-line="130" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Tools/Python37/Lib/xml/etree/ElementTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="1057" selection-start-line="1057" selection-end-line="1057" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Util/XmlOperator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
+          <folding>
+            <element signature="e#24#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tool/LoadRWRobotName.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-228">
+          <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="19" selection-end-column="14" />
           <folding>
             <element signature="e#23#32#0" expanded="true" />
           </folding>
@@ -686,15 +718,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        <state relative-caret-position="533">
+          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tool/LoadRWRobotName.py">
+    <entry file="file://$PROJECT_DIR$/src/Tool/Xls2Xml.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="39" column="32" lean-forward="true" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+        <state relative-caret-position="381">
+          <caret line="137" column="49" selection-start-line="137" selection-start-column="49" selection-end-line="137" selection-end-column="49" />
           <folding>
             <element signature="e#23#32#0" expanded="true" />
           </folding>
